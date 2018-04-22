@@ -3,7 +3,7 @@ python script to display media information of currently playing music on any loc
 Combined with php script to start the service through a web request and a simple ifttt the voice command 'show me what's playing' on Google Home will display information on currently playing music on your TV (artist/album/song title/streaming service/almbum art).
 
 
-I designed this for a rapsberry pi. An apache web server must be running on same computer. Files in www folder should go on apache's www/html folder (eg /var/www or /var/www/html depending on version and settings). The script needs to be run with sufficient privileges to be able to write on that folder.
+I designed this to be run on a rapsberry pi. An apache web server must be running on the same computer. Files in www folder should go on apache's www/html folder (eg /var/www or /var/www/html depending on version and settings). The script needs to be run with sufficient privileges to be able to write on that folder.
 
 
 # Usage:
