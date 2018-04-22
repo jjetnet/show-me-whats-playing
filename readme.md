@@ -1,7 +1,7 @@
 # show me what's playing
-python script to display media information on a chromecast TV of currently playing music on any local chomecast audio . The information is updated when a new stong starts. Works with spotify, google play music, etc.
+python script to display media information on a chromecast TV of currently playing music on any local chomecast audio. The information is updated when a new song starts. Works with spotify, google play music, etc.
 
-Combined with a php script to start the service through a web request and a simple ifttt the voice command 'show me what's playing' on Google Home will display information on currently playing music on your TV (artist/album/song title/streaming service/almbum art).
+Combined with a php script to start the service through a web request and a simple ifttt action, the voice command 'show me what's playing' on Google Home will display information on currently playing music on your TV (artist/album/song title/streaming service/almbum art).
 
 
 I designed this to be run on a rapsberry pi. An apache web server must be running on the same computer. Files in www folder should go on apache's www/html folder (eg /var/www or /var/www/html depending on version and settings). The script needs to be run with sufficient privileges to be able to write on that folder.
