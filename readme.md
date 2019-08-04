@@ -1,4 +1,6 @@
 # show me what's playing
+Important note: current verison contains a bug that seems to floods the router after a while, not sure why. Network can become slow if the script is running for a while...
+
 python script to display media information on a chromecast TV of currently playing music on any local chomecast audio. The information is updated when a new song starts. Works with spotify, google play music, etc.
 
 Combined with a php script to start the service through a web request and a simple ifttt action, the voice command 'show me what's playing' on Google Home will display information on currently playing music on your TV (artist/album/song title/streaming service/almbum art).
