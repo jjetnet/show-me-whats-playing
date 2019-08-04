@@ -1,5 +1,5 @@
 # show me what's playing
-Important note: current verison contains a bug that seems to floods the router after a while, not sure why. Network can become slow if the script is running for a while...
+Important note: current verison contains a bug that seems to flood the router after a while, not sure why. Network can become slow if the script is running for a while...
 
 python script to display media information on a chromecast TV of currently playing music on any local chomecast audio. The information is updated when a new song starts. Works with spotify, google play music, etc.
 
